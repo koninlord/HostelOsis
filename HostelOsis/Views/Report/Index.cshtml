@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+
+}
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<button id="btnpdf"> Generate Pdf</button>
+<script>
+    $("#btnpdf").click(function () {
+        window.open('../Home/PrintRoomtype?param=1', '_blank');
+    });
+</script>
+<h1>Index</h1>
+
